@@ -23,6 +23,7 @@ CLAUSES = (
 
 LINE = " ".join(CLAUSES)
 
+# Gates from the brief: 1-199 characters, one line, one sentence.
 MIN_LEN = 1
 MAX_LEN = 199
 

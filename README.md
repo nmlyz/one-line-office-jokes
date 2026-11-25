@@ -18,7 +18,7 @@ The line is 87 characters long, a single sentence on a single line, so it reads 
 python3 main.py
 ```
 
-It writes the line to `/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR/entry.txt`). No network access needed; the same text, byte for byte, on every run.
+It writes the line to `/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR/entry.txt`). No network access needed; the same text, byte for byte, on every run. Exit code 0 means the entry was written and verified against the line.
 
 ---
 
